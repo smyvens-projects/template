@@ -1,5 +1,3 @@
-import "~/styles/globals.css"
-
 export default async function Page() {
     return (
         <div className="w-full h-screen flex items-center justify-center">
