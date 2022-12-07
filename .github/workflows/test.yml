@@ -47,8 +47,5 @@ jobs:
       - name: Build application
         run: pnpm build
 
-      - name: Start application in production mode
-        run: pnpm start
-
       - name: Test with cypress
         run: pnpm test
