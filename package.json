@@ -9,7 +9,8 @@
     "lint": "next lint",
     "lint:check": "tsc && pnpm lint && pnpm lint:prettier:check",
     "lint:prettier:write": "prettier --write '**/*.{ts,tsx,md}'",
-    "lint:prettier:check": "prettier --check '**/*.{ts,tsx,md}'"
+    "lint:prettier:check": "prettier --check '**/*.{ts,tsx,md}'",
+    "test": "cypress run"
   },
   "dependencies": {
     "@types/node": "18.11.11",
