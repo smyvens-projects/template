@@ -6,7 +6,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
-        <html>
+        <html lang="en">
             <head />
             <body>{children}</body>
         </html>
