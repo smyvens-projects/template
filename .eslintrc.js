@@ -27,6 +27,12 @@ module.exports = {
         "react/react-in-jsx-scope": "off",
         "react/jsx-props-no-spreading": "off",
         "prettier/prettier": "off",
+        "react/function-component-definition": [
+            "warn",
+            {
+                namedComponents: "function-declaration",
+            },
+        ],
     },
     settings: {
         react: {
