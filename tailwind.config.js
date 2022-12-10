@@ -1,9 +1,16 @@
-/** @type {import('tailwindcss').Config} */
+const customConfig = require("tailwind-config")
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    presets: [require("tailwind-config")],
+    content: ["src/**/*.tsx"],
+    presets: [customConfig],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                poppins: ["Poppins", "sans-serif"],
+                gilroy: ["Gilroy", "sans-serif"],
+            },
+        },
     },
     plugins: [],
 }

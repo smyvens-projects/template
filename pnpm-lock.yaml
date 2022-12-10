@@ -53,7 +53,7 @@ devDependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.29.0
   postcss: 8.4.19
   prettier: 2.8.0
-  tailwind-config: github.com/smyvens-projects/tailwind-config/f8736f98ee73da1c10c90213cc1b595a296f37bc_postcss@8.4.19
+  tailwind-config: github.com/smyvens-projects/tailwind-config/9f36a794ab9d5c188524d8f1bf4bd105999ac99c_postcss@8.4.19
   tailwindcss: 3.2.4_postcss@8.4.19
 
 packages:
@@ -3344,9 +3344,9 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  github.com/smyvens-projects/tailwind-config/f8736f98ee73da1c10c90213cc1b595a296f37bc_postcss@8.4.19:
-    resolution: {tarball: https://codeload.github.com/smyvens-projects/tailwind-config/tar.gz/f8736f98ee73da1c10c90213cc1b595a296f37bc}
-    id: github.com/smyvens-projects/tailwind-config/f8736f98ee73da1c10c90213cc1b595a296f37bc
+  github.com/smyvens-projects/tailwind-config/9f36a794ab9d5c188524d8f1bf4bd105999ac99c_postcss@8.4.19:
+    resolution: {tarball: https://codeload.github.com/smyvens-projects/tailwind-config/tar.gz/9f36a794ab9d5c188524d8f1bf4bd105999ac99c}
+    id: github.com/smyvens-projects/tailwind-config/9f36a794ab9d5c188524d8f1bf4bd105999ac99c
     name: tailwind-config
     version: 1.0.0
     dependencies:
